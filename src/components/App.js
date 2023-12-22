@@ -1,12 +1,12 @@
 
 import React from "react";
 import './../styles/App.css';
-import {usestate} from 'react';
+import {useState} from 'react';
 
 
 const App = () => {
 
-  const [count,setCount]=usestate(0);
+  const [count,setCount]=useState(0);
 
   function inc(){
     setCount(count+1);
